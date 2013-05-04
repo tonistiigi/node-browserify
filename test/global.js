@@ -43,8 +43,8 @@ test('process.nextTick', function (t) {
 });
 
 test('Buffer', function (t) {
-    t.plan(2);
     
+    t.plan(4);
     var b = browserify();
     b.add(__dirname + '/global/buffer.js');
     b.bundle(function (err, src) {
