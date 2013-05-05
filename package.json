@@ -26,7 +26,7 @@
         "through": "~2.2.0",
         "duplexer": "~0.0.2",
         "concat-stream": "~0.1.1",
-        "insert-module-globals": "~0.2.0",
+        "insert-module-globals": "git://github.com/substack/insert-module-globals.git#b21e489459",
         "syntax-error": "~0.0.0",
         "browser-resolve": "git://github.com/tonistiigi/node-browser-resolve.git",
         "inherits": "~1.0.0",
